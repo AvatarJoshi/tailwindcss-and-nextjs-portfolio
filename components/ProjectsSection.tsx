@@ -6,28 +6,29 @@ import { BsGithub, BsArrowUpRightSquare } from "react-icons/bs"
 
 const projects = [
   {
-    name: "Thankful Thoughts",
+    name: "Bank Marketing Campaign Analysis",
     description:
-      "ThankfulThoughts is a web app that generates an appreciative sentence of something or someone you are thankful for.",
-    image: "/thankfulthoughts.png",
-    github: "https://github.com/hqasmei/thankful-thoughts",
-    link: "https://thankfulthoughts.io/",
+      "Applies machine learning techniques to predict whether a customer will subscribe to a term deposit.",
+    image: "/marketing_campaign.png",
+    github: "",
+    link: "",
   },
   {
-    name: "PlatoIO",
-    description: "PlatoIO is a to do list app that built using the PERN stack.",
-    image: "/platoio.png",
-    github: "https://github.com/hqasmei/platoio",
-    link: "https://platoio.com/register",
+    name: "Map and Predict COPD",
+    description:
+      "Uses CDC health data to predict COPD prevalence in the US. Maps the prevalence of COPD along with COPD-associated health metrics.",
+    image: "/copd_project.png",
+    github: "https://github.com/AvatarJoshi/COPD_Project",
+    link: "",
   },
   {
-    name: "Kator Family Photos",
-    description:
-      "Kator Family Photos is a photos and video digitization service in the LA area.",
-    image: "/familyphotos.png",
-    github: "https://github.com/hqasmei/katorfamilyphotos",
-    link: "https://katorfamilyphotos.com/",
+    name: "Global Earthquake Map",
+    description: "Connects to the USGS API to display live earthquakes on a map.",
+    image: "/earthquake_map.png",
+    github: "https://github.com/AvatarJoshi/mapping_earthquakes",
+    link: "https://avatarjoshi.github.io/mapping_earthquakes/",
   },
+
 ]
 
 const ProjectsSection = () => {

@@ -2,17 +2,18 @@ import React from "react"
 import Image from "next/image"
 
 const skills = [
+  { skill: "Python" },
+  { skill: "Pandas" },
+  { skill: "Sci-kit Learn" },
+  { skill: "R" },
+  { skill: "SQL" },
+  { skill: "AWS" },
   { skill: "HTML" },
   { skill: "CSS" },
   { skill: "JavaScript" },
-  { skill: "TypeScript" },
-  { skill: "Python" },
-  { skill: "React" },
-  { skill: "Next.js" },
-  { skill: "Tailwind CSS" },
   { skill: "Git" },
   { skill: "GitHub" },
-  { skill: "Jupyter Notebooks" },
+
 ]
 
 const AboutSection = () => {
@@ -79,7 +80,7 @@ const AboutSection = () => {
               alt=""
               width={325}
               height={325}
-              className="hidden md:block md:relative md:bottom-1 md:left-10 md:z-0"
+              className="hidden md:block md:relative md:-bottom-2 md:right-0 md:z-0"
             />
           </div>
         </div>
